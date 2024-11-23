@@ -1,0 +1,40 @@
+/* Rofi theme: black with blue text */
+configuration {
+    modi: "drun,run";
+    show: "drun";
+    font: "CascadiaCode Nerd Font 12";
+    sidebar-mode: false;
+    location: 0;
+}
+
+window {
+    background-color: #1E1E1E;
+    border: 0;
+    padding: 5px;
+}
+
+mainbox {
+    background-color: #1E1E1E;
+}
+
+listview {
+    background-color: #1E1E1E;
+    spacing: 2;
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+    text-color: #4C9EEB;
+    padding: 2px 5px;
+    border: 0;
+}
+
+element selected {
+    background-color: #4C9EEB;
+    text-color: #FFFFFF;
+}
+
+textbox {
+    text-color: #4C9EEB;
+}
